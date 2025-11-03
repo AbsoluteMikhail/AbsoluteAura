@@ -619,12 +619,15 @@ FodyWeavers.xsd
 
 ################################################################
 # For team C++ work
-!Binaries/Win64/*.modules
-!Binaries/Win64/*.target
-!Binaries/Win64/*.dll
-!Plugins/*/Binaries/Win64/*.modules
-!Plugins/*/Binaries/Win64/*.target
-!Plugins/*/Binaries/Win64/*.dll
+#!Binaries/Win64/*.modules
+#!Binaries/Win64/*.target
+#!Binaries/Win64/*.dll
+#!Plugins/*/Binaries/Win64/*.modules
+#!Plugins/*/Binaries/Win64/*.target
+#!Plugins/*/Binaries/Win64/*.dll
 
 *.pdb
 *.exp
+*.modules
+*.target
+*.dll
