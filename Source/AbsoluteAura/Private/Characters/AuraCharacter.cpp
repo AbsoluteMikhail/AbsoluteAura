@@ -1,0 +1,28 @@
+﻿// Copyright Notice © 2025, Mikhail Efremov. All rights reserved.
+
+#include "Characters/AuraCharacter.h"
+
+
+AAuraCharacter::AAuraCharacter()
+{
+	PrimaryActorTick.bCanEverTick = true;
+	
+}
+
+void AAuraCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
+void AAuraCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	
+}
+
+void AAuraCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	
+}
