@@ -1,0 +1,7 @@
+﻿// Copyright Notice © 2025, Mikhail Efremov. All rights reserved.
+
+
+#include "Interfaces/InteractInterface.h"
+
+
+// Add default functionality here for any IInteractInterface functions that are not pure virtual.

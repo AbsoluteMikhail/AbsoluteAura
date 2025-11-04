@@ -1,7 +1,6 @@
 ﻿// Copyright Notice © 2025, Mikhail Efremov. All rights reserved.
 
 #include "Characters/AuraCharacter.h"
-
 #include "GameFramework/CharacterMovementComponent.h"
 
 
